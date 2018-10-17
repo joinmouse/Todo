@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+//App组件，大写字母开头
+import TodoList from './TodoList';
+
+ReactDOM.render(
+    <TodoList />, 
+    document.getElementById('root')
+);

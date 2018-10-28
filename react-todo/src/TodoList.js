@@ -6,6 +6,7 @@ class TodoList extends Component {
   
   constructor(props) {
     super(props)
+    // 当组件的props或者state发生的改变的时候，render函数就会重新执行
     this.state = {
       list: [
         'learn react',
